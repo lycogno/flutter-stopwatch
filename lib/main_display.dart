@@ -82,9 +82,9 @@ class _MainDisplayState extends State<MainDisplay> {
     _hours.add('00');
     _minutes.add('00');
     _seconds.add('00');
-    _millis.add('00');
+    _millis.add('000');
     _label.add('');
-    i++;
+    i = _stopwatch.length;
     _stopwatch.add(Stopwatch());
     setState(() {});
   }
